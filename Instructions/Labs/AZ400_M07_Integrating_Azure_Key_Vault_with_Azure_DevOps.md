@@ -207,7 +207,7 @@ Azure Pipelines から Azure リソースにアプリをデプロイするには
 
     > **注**: **Override template parameters**のコンテンツは、**sqldbpassword** 変数を参照して mySQL 管理者パスワードを設定します。これにより、キーボールトで指定したパスワードを使用して、ARM テンプレートで定義された MySQL データベースがプロビジョニングされます。
 
-    > **注**: タスクのサブスクリプションと場所を指定することで、パイプライン定義を完了することができます。パイプライン **Azure App Service Deploy** の最後のタスクについても同じことを繰り返します。最後に、新しいリリースを保存して作成し、デプロイを開始します。
+1. [オプション]タスクのサブスクリプションと場所を指定することで、パイプライン定義を完了することができます。パイプライン **Azure App Service Deploy** の最後のタスクについても同じことを繰り返します。最後に、新しいリリースを保存して作成し、デプロイを開始します。
 
 ### 演習 2: Azure ラボ リソースを削除する
 
@@ -229,7 +229,7 @@ Azure Pipelines から Azure リソースにアプリをデプロイするには
 1.  次のコマンドを実行して、このモジュールのラボ全体で作成したすべてのリソース グループのリストを削除します。
 
     ```sh
-    az group list --query "[?starts_with(name,'az400m07l01-RG')].「name」" --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes'
+    az group list --query "[?starts_with(name,'az400m07l01-RG')].name" --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes'
     ```
 
     > **注**: コマンドは非同期に実行されるので (--nowait パラメーターで決定される)、同じ Bash セッション内ですぐに別の Azure CLI コマンドを実行できますが、リソース グループが実際に削除されるまでに数分かかります。
