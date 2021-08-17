@@ -200,8 +200,8 @@ Windows 10 デスクトップでタスク バーを探します。タスク バ�
    | 設定                   | 値                                                                |
    | ---------------------- | ----------------------------------------------------------------- |
    | Name                   | **Configuring Agent Pools and Understanding Pipeline Styles lab** |
-   | Scope (custom defined) | **Agent Pools**                                                   |
-   | Permissions            | **Read & manage**                                                 |
+   | Scope | **Custom defined**                                                   |
+   | Agent Pools        | **Read & manage**                                                 |
 
 1. **Success**ペインで、パーソナルアクセストークンの値をクリップボードにコピーします。
 
