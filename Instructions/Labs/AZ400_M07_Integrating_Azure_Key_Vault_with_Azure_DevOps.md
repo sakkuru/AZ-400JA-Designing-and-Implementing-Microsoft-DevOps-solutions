@@ -173,8 +173,8 @@ Azure Pipelines から Azure リソースにアプリをデプロイするには
 1.  「**Pipelines**」 ペインで、**SmartHotel-CouponManagement-CI** パイプラインを表すエントリをクリックし、「**SmartHotel-CouponManagement-CI**」 ペインで 「**Run pipeline**」 をクリックします。
 1.  「**Run pipeline**」 ペインで、デフォルト設定を受け入れ、「**Runs**」 をクリックしてビルドをトリガーします。
 1.  Azure DevOps ポータルの垂直ナビゲーション ペインの 「**Pipelines**」 セクションで、「**Releases**」 を選択します。
-1.  **SmartHotel-CouponManagement-CI** ペインで、右上隅にある 「**Edit**」 をクリックします。
-1.  「**All pipelines」 > 「SmartHotel-CouponManagement-CI**」 ペインで、「**Tasks**」 タブを選択し、ドロップダウン メニューで 「**Dev**」 を選択します。
+1.  **SmartHotel-CouponManagement-CD** ペインで、右上隅にある 「**Edit**」 をクリックします。
+1.  「**All pipelines」 > 「SmartHotel-CouponManagement-CD**」 ペインで、「**Tasks**」 タブを選択し、ドロップダウン メニューで 「**Dev**」 を選択します。
 
     > **注**: **Dev**ステージのリリース定義には、**Azure Key Vault** タスクがあります。このタスクは、Azure KeyVault から*シークレット*をダウンロードします。ラボで以前に作成したサブスクリプションと Azure Key Vault リソースを指定する必要があります。
 
