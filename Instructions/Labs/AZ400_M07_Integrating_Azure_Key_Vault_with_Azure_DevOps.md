@@ -189,8 +189,8 @@ Azure Pipelines から Azure リソースにアプリをデプロイするには
     - サブスクリプション ID: `az account show --query id --output tsv` を実行することにより取得される値
     - サブスクリプション名: `az account show --query name --output tsv` を実行することにより取得される値
     - サービス プリンシパル ID: `az ad sp create-for-rbac --name <service-principal-name>` を実行することにより生成される出力の **appId** のラベルが付いた値
-    - サービス プリンシパル ID: `az ad sp create-for-rbac --name <service-principal-name>` を実行することにより生成される出力の **password** のラベルが付いた値
-    - TenantId: `az ad sp create-for-rbac --name <service-principal-name>` を実行することにより生成される出力の **tenant** のラベルが付いた値
+    - サービス プリンシパル Key: `az ad sp create-for-rbac --name <service-principal-name>` を実行することにより生成される出力の **password** のラベルが付いた値
+    - Tenant Id: `az ad sp create-for-rbac --name <service-principal-name>` を実行することにより生成される出力の **tenant** のラベルが付いた値
 
 1.  「**New service connection**」 ペインで、「**Verify**」をクリックして、指定した情報が有効かどうかを確認します。
 1.  「**Verification Succeeded**」という応答を受け取ったら、「**Service connection name**」 テキストボックスに「**kv-service-connection**」と入力し、「**Verify and Save**」 をクリックします。
