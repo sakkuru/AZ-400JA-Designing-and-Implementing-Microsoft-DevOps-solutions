@@ -174,6 +174,8 @@ lab:
 1.  「**App Service name**」 ドロップダウンリストで、**Canary** Web アプリの名前を選択します。
 1.  「**Resource Group and Application Insights**」 ドロップダウン リストで、**az400m10l01-RG** エントリを選択します。
 1.  「**Application Insights resource name**」 ドロップダウン リストで、**Canary** Application Insights リソースの名前を選択します。
+1.  2021/08/19追記: 「Enable Coninuous Monitoring」を右クリックメニューからDisableにします。
+    > **注**: これは一時的なワークアラウンドです。
 1.  「**Tasks**」 タブをクリックし、ドロップダウン リストで 「**Production**」 を選択します。
 1.  **Production**ステージを選択した状態で、「**Azure subscription**」 ドロップダウ ンリストで、**Canary Environments**ステージに使用した Azure サブスクリプションを選択し、「**Authorize**」 をクリックします。
 1.  「**App Service name**」 ドロップダウン リストで、**Prod** Web アプリの名前を選択します。
