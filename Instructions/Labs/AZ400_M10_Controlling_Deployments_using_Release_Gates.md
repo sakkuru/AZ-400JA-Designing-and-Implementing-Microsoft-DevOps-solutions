@@ -250,7 +250,7 @@ lab:
 
 このタスクでは、Canary Environments のデプロイ後のゲートを有効にします。
 
-1.  **「All pipelines」 > 「PartsUnlimited-CD」** ペインに戻り、**Canary Environments**ステージを表す長方形の左端で、**Post-deployment conditions**を表す楕円形をクリックします。
+1.  **「All pipelines」 > 「PartsUnlimited-CD」** ペインに戻り、**Canary Environments**ステージを表す長方形の右端で、**Post-deployment conditions**を表す楕円形をクリックします。
 1.  「**Post-deployment conditions**」 ペインで、「**Gates**」 スライダーを 「**Enabled**」 に設定し、「**add**」 をクリックして、ポップアップ メニューで 「**Query Azure Monitor Alerts**」 をクリックします。
 1.  「**Post-deployment conditions**」 ペインの 「**Query Azure Monitor Alerts**」 セクションの 「**Azure subscription**」 ドロップダウン リストで、Azure サブスクリプションを表すエントリを選択し、「**Resource group**」 ドロップダウン リストで、**az400m10l01-RG** エントリを選択します。
 1.  「**Post-deployment conditions**」 ペインで、「**Evaluation options**」を開き、次のオプションを構成します。
